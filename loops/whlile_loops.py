@@ -61,11 +61,11 @@
 #      i += 1
      
 # 7 
-user_in = int(input("enter a number "))
-i = 1
-while i <= user_in:
-    print(i)
-    i += 1
+# user_in = int(input("enter a number "))
+# i = 1
+# while i <= user_in:
+#     print(i)
+#     i += 1
 
     
    

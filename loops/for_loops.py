@@ -62,8 +62,8 @@
 #     print(nema)
 
 # 12
-nemas = ["eli","ben","dan","aviv"]
-count = 0
-for nema in nemas:
-    count += 1
-    print(count)
+# nemas = ["eli","ben","dan","aviv"]
+# count = 0
+# for nema in nemas:
+#     count += 1
+#     print(count)
