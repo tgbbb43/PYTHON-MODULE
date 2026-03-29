@@ -12,7 +12,7 @@
 # for number in range(0, 1000000, 3):
     # print(f"{number} is my friend")  
     
-#? [Python Basics] Class-Lab 4.5    
+#? [Python Basics] Class-Lab 4.1    
 #  1
 # for i in range(6):
 #     print(i)
@@ -67,3 +67,60 @@
 # for nema in nemas:
 #     count += 1
 #     print(count)
+
+# 13
+# num = [5,87,32,54,2]
+# g =0
+# for n in num:
+#     g += n
+#     e = g / len(num)
+# print(e)
+
+# 14
+
+# nums = [4, 12, 7, 25, 18]
+# max_num = nums[0]
+# for n in nums:
+#     if n > max_num:
+#         max_num = n
+# print(f"Max number: {max_num}")    
+
+# 15
+# names = ["Alice", "Bob", "Charlie", "Anna"]
+# for n in names:
+#     if n.startswith("A"):
+#         print(n)
+
+# 16
+# mixed_nums = [1, 2, 3, 4, 5, 6]
+# for n in mixed_nums:
+#     if n % 2 == 0:
+#         print(n)
+
+# 17
+# num = [1,4,5,33,21,67,90]
+# for n in num:
+#     if n >= 10:
+#      print(n)
+
+# 18
+# num = [1,4,5,33,21,67,90]
+# for n in num:
+#     if n % 2 == 0 and n % 3 ==0:
+#         print(n)
+
+# 19
+# num = [1,4,5,33,21,67,90]
+# for n in num:
+#     c = n **2
+#     print(c)
+
+# 20
+
+all_nums = [-10, 5, -2, 8, 0, 12]
+positive_nums = []
+for n in all_nums:
+    if n > 0:
+        positive_nums.append(n)
+print(f"Positive list: {positive_nums}")
+
