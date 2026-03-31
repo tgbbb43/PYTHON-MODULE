@@ -7,8 +7,8 @@
 # print(al(divide,8,0))
 
 # ? 5.2
-import math
-from datetime import datetime, timedelta
+# import math
+# from datetime import datetime, timedelta
 # 2
 # x = datetime.datetime.now()
 # print(x.strftime("%X"))
@@ -98,8 +98,61 @@ from datetime import datetime, timedelta
 
 # 20
 
-now = datetime.now()
-hours_passed = now.hour + (now.minute / 60)
-result = math.floor(hours_passed * 2)
-print(f"20. Current hour: {now.hour}:{now.minute}")
-print(f"20. Result (Hours * 2, floored): {result}")
+# now = datetime.now()
+# hours_passed = now.hour + (now.minute / 60)
+# result = math.floor(hours_passed * 2)
+# print(f"20. Current hour: {now.hour}:{now.minute}")
+# print(f"20. Result (Hours * 2, floored): {result}")
+
+# ? 4.3
+import os
+import sys
+
+# 1
+# x = os.name
+# print(x)
+
+# 2
+# print( os.getcwd())
+
+# 3
+# print(os.listdir())
+
+# 4
+# folder_name = "test_folder"
+# if not os.path.exists(folder_name):
+#     os.mkdir(folder_name)
+#     print("4. Folder created")
+
+# # 5
+# os.chdir(folder_name)
+# print(f"5. Changed directory to: {os.getcwd()}")
+
+# 6
+# def final_scenario():
+#     target = "scenario_folder"
+#     filename = "log.txt"
+    
+#     # 1. צור תיקייה
+#     if not os.path.exists(target):
+#         os.mkdir(target)
+#         print("Folder created")
+    
+#     # 2. צור קובץ בתוכה
+#     file_path = os.path.join(target, filename)
+#     with open(file_path, 'w') as f:
+#         f.write("Log data")
+#     print("File created")
+    
+#     # 3. בדוק קיום
+#     print(os.path.exists(file_path))
+    
+#     # 4. מחיקה (ניקוי)
+#     os.remove(file_path)
+#     os.rmdir(target)
+#     print("Cleanup done")
+
+# final_scenario()
+
+# ? 4.3
+
